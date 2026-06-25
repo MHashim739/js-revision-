@@ -14,3 +14,10 @@
 // alert(ordiNumber)
 // var aisaNumber=3442077931;
 // alert(aisaNumber)
+// var newNumber=3;
+// ++newNumber + --newNumber  + newNumber++ + ++newNumber - newNumber-- - newNumber-- + ++newNumber  + newNumber++;
+// alert(2+2)
+// var num1=9;
+// var num2=4;
+// var num3=++num1 % --num2;
+// alert(num3)
