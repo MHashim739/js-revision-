@@ -21,3 +21,15 @@
 // var num2=4;
 // var num3=++num1 % --num2;
 // alert(num3)
+var firstName;
+let lastName;
+firstName="Muhammed";
+lastName="Hashim";
+var address="main Street";
+address="First Street";
+console.log(firstName);
+console.log(lastName);
+console.log(address);
+
+
+
