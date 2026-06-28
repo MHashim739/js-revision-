@@ -68,6 +68,15 @@
 //data type in javascript
 
 //string// boolean // numbers// array //objects //null // undefined
+var lunckahogey=prompt(`ha dost lunch ka time ha ammi pouch rahi ha ka lunch kahu ga kia`)
+if(lunckahogey === "haan"){
+    var selectionDost=prompt(`ha dost kia kahu ha lunch  ma biryani , korma , ploa`)
+    if(selectionDost==selectionDost){
+        alert(`ammi app kahana ma  ${selectionDost} laga da`)
+    }
+}else{
+    alert(`ammi dost na mana kar diyaha lunch khana sa`)
+}
 
 
 
