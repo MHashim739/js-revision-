@@ -184,6 +184,68 @@
 //     console.log("you need in repeat topics");
     
 // }
+// var students=["aslam",'salman','abdul ghafoor',"kaif"];
+// console.log(students[0]);
+// console.log(3);
+// console.log(2);
+// let fruits=[`banana`, `mango`, `apple`, `orange`, `water mallon`, 5];
+// let setFruit= fruits[0];
+// fruits[5]=null;
+// console.log(fruits);
+// console.log(setFruit);
+// let anyNum=prompt("enter your any number");
+// anyNum++;
+// anyNum -=1;
+// if (anyNum >=18 && anyNum <= anyNum || anyNum <=50){
+//     alert(`this Number ${anyNum} is collified`);
+//     console.log(`this Number ${anyNum} is collified`);
+//     anyNum--;
+//     anyNum+=1;
+//     console.log(anyNum);
+// } else {
+//     alert(`not allow this Number ${anyNum} try again`);
+//     console.log(`not allow this Number ${anyNum} try again`);
+    
+// }
+// let cssAssigemnt=prompt(`your css assigment is complete`);
+// let attendence=prompt(`your attendence id good`);
+// let cssHakathon=prompt(`your css hkathon pass`);
+// if ((cssAssigemnt ==`yes` && attendence == `yes` || cssHakathon == `yes`)){
+//     alert(`you allow javascript module`)
+//     console.log(`you allow javascript module`);
+// } else{
+//     alert(`you not allow javascript module previous module repeat`);
+//     console.log(`you not allow javascript module previous module repeat`);
+// }
+// function sum(){
+//     console.log(2+1);
+//     console.log(3-1);
+//     console.log(2+3);    
+// }
+// function multiply(){
+//     console.log(2 * 3);
+//     console.log(3*2);
+// }
+// function person(name,course){
+//     console.log(`${name} you shore you enrolles this course`);
+// }
+// person(`Muhammed Hashim`,`Web and app`);
+
+// function calculate(total,tax){
+//     return total + tax;
+//     let num1=2;
+//     let num2=3;
+//     let num3=3;
+// }
+// var saveCalculate=calculate(3,7);
+// console.log(saveCalculate);
+// console.log(num1);
+// console.log(num2);
+// console.log(num3);
+
+
+
+
 
 
 
