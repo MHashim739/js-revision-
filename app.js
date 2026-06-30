@@ -242,6 +242,61 @@
 // console.log(num1);
 // console.log(num2);
 // console.log(num3);
+// class Person{
+//     constructor(name,id,course){
+//         this.name=name;
+//         this.id=id;
+//         this.course=course;
+//     }
+//     static talk(){
+//         return console.log(`${this.name} .. talking!!`);
+//     }
+// }
+// let savePerson=new Person("M Hashim",77607,"web and app");
+// let detPerson={name,id,course}=savePerson;
+// console.log(`Student 1 name ${name} this id ${id} this enroll course ${course}`);
+// Person.talk()
+// console.log(savePerson);
+// let save2Person=new Person("kaif" ,  60607, "agentic AI");
+// console.log(save2Person);
+// let detPerson1={name,id,course}=save2Person;
+// console.log(`Student 3 name ${name} this id ${id} this enroll course ${course}`);
+// Person.talk()
+// let save3Person=new Person("Ahsan" ,  64657, "Designing");
+// console.log(save3Person);
+// let detPerson2={name,id,course}=save3Person;
+// console.log(`Student 3 name ${name} this id ${id} this enroll course ${course}`);
+// Person.talk()
+class Students{
+    constructor(name,id,course,batch,campus){
+        this.name=name;
+        this.id=id;
+        this.course=course;
+        this.batch=batch;
+        this.campus=campus;
+    }
+    static attendence(){
+        let attStudent=prompt(`your attendence id good`);
+        if (attStudent == "yes" || attStudent==no){
+            alert(`app ki attendence is ${attStudent} app agli class ma ajana `)
+        } else {
+            alert(` app agali class ma na ana because your attendence ${attStudent}  kam ha ais liya app kal reseption walu sa pouchkar`)
+        }
+    }
+}
+class Std01 extends Students{
+    constructor(){
+        super(this.name,this.id,this.course,this.batch,this.campus)
+    }
+    hobbies(){
+        console.log(`Daily coding ${this.name}`);
+    }
+}
+let save1Student01=new Students("Muhammed Hashim", 70607, "web and app", "batch " + 20, "ziatoon Ashraf IT Park SMIT ");
+let detStudent01={name,id,course,batch,campus}=save1Student01;
+console.log(save1Student01);
+console.log(`student 1 name ${name} this id ${id} this course enroll ${course} this batch me  ${batch} this campus me study course ${campus}`);
+let savestd02=new Std01(`ahsan`,50567,`web and app`,`batch 20`)
 
 
 
