@@ -266,42 +266,79 @@
 // console.log(save3Person);
 // let detPerson2={name,id,course}=save3Person;
 // console.log(`Student 3 name ${name} this id ${id} this enroll course ${course}`);
-// Person.talk()
-class Students{
-    constructor(name,id,course,batch,campus){
-        this.name=name;
-        this.id=id;
-        this.course=course;
-        this.batch=batch;
-        this.campus=campus;
-    }
-    static attendence(){
-        let attStudent=prompt(`your attendence id good`);
-        if (attStudent == "yes" || attStudent==no){
-            alert(`app ki attendence is ${attStudent} app agli class ma ajana `)
-        } else {
-            alert(` app agali class ma na ana because your attendence ${attStudent}  kam ha ais liya app kal reseption walu sa pouchkar`)
-        }
-    }
+// // Person.talk()
+// class Students{
+//     constructor(name,id,course,batch,campus){
+//         this.name=name;
+//         this.id=id;
+//         this.course=course;
+//         this.batch=batch;
+//         this.campus=campus;
+//     }
+//     static get attendence(){
+//         let attStudent=prompt(`your attendence id good`);
+//         if (attStudent == "yes"){
+//             alert(`app ki attendence is ${attStudent} app agli class ma ajana `)
+//         } else {
+//             alert(` app agali class ma na ana because your attendence ${attStudent}  kam ha ais liya app kal reseption walu sa pouchkar`)
+//         }
+//         return attStudent
+//     }
+// }
+// class Std01 extends Students{
+//     constructor(){
+//         super(name,id,course,batch,campus)
+//     }
+//    static get hobbies(){
+//         console.log(`Daily coding ${name}`);
+//         return 2 + 2;
+//     }
+// }
+// let save1Student01=new Students("Muhammed Hashim", 70607, "web and app", "batch " + 20, "ziatoon Ashraf IT Park SMIT ");
+// let detStudent01={name,id,course,batch,campus}=save1Student01;
+// console.log(save1Student01);
+// console.log(`student 1 name ${name} this id ${id} this course enroll ${course} this batch me  ${batch} this campus me study course ${campus}`);
+// let savestd02=new Std01(`ahsan`,50567,`web and app`,`batch 20`)
+// console.log(Std01.hobbies);
+// console.log(Std01.attendence);
+
+// var randomArr=[1,2,3,"Muhammed","Kaif",false,null];
+// console.log(randomArr);
+// randomArr.unshift("Ahsan","Raza");
+// console.log(randomArr);
+// randomArr.shift();
+// console.log(randomArr);
+// randomArr.push(null,NaN);
+// console.log(randomArr);
+// randomArr.pop();
+// console.log(randomArr);
+function calculate(){
+    let calculate01=+prompt("Enter any Number around 1 to 10");
+    console.log(`value check user type Number 01 ${calculate01}`);
+    let calculate02=+prompt("Enter Your any Number arround 10 to 30");
+    console.log(`value check user type Number 02 ${calculate02}`);
+    calculate01++;
+    console.log(calculate01);
+    calculate01--;
+    console.log(calculate01);
+    calculate01++;
+    console.log(calculate01);
+    ++calculate;
+    console.log(calculate01);
+    calculate02--;
+    console.log(calculate02);
+    ++calculate02;
+    console.log(calculate02);
+    calculate02++;
+    console.log(calculate02);
+    --calculate02
+    console.log(calculate02);
+    return calculate01 + calculate02;
+    return calculate01 - calculate02;
+    return calculate01 * calculate02;
+    return calculate01 % calculate02;
+    return calculate01 / calculate02;
 }
-class Std01 extends Students{
-    constructor(){
-        super(this.name,this.id,this.course,this.batch,this.campus)
-    }
-    hobbies(){
-        console.log(`Daily coding ${this.name}`);
-    }
-}
-let save1Student01=new Students("Muhammed Hashim", 70607, "web and app", "batch " + 20, "ziatoon Ashraf IT Park SMIT ");
-let detStudent01={name,id,course,batch,campus}=save1Student01;
-console.log(save1Student01);
-console.log(`student 1 name ${name} this id ${id} this course enroll ${course} this batch me  ${batch} this campus me study course ${campus}`);
-let savestd02=new Std01(`ahsan`,50567,`web and app`,`batch 20`)
-
-
-
-
-
 
 
 
