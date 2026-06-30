@@ -312,35 +312,38 @@
 // console.log(randomArr);
 // randomArr.pop();
 // console.log(randomArr);
-function calculate(){
-    let calculate01=+prompt("Enter any Number around 1 to 10");
-    console.log(`value check user type Number 01 ${calculate01}`);
-    let calculate02=+prompt("Enter Your any Number arround 10 to 30");
-    console.log(`value check user type Number 02 ${calculate02}`);
-    calculate01++;
-    console.log(calculate01);
-    calculate01--;
-    console.log(calculate01);
-    calculate01++;
-    console.log(calculate01);
-    ++calculate;
-    console.log(calculate01);
-    calculate02--;
-    console.log(calculate02);
-    ++calculate02;
-    console.log(calculate02);
-    calculate02++;
-    console.log(calculate02);
-    --calculate02
-    console.log(calculate02);
-    return calculate01 + calculate02;
-    return calculate01 - calculate02;
-    return calculate01 * calculate02;
-    return calculate01 % calculate02;
-    return calculate01 / calculate02;
-}
+// function calculate(){
+//     let calculate01=+prompt("Enter any Number around 1 to 10");
+//     console.log(`value check user type Number 01 ${calculate01}`);
+//     let calculate02=+prompt("Enter Your any Number arround 10 to 30");
+//     console.log(`value check user type Number 02 ${calculate02}`);
+//     calculate01++;
+//     console.log(calculate01);
+//     calculate01--;
+//     console.log(calculate01);
+//     calculate01++;
+//     console.log(calculate01);
+//     ++calculate;
+//     console.log(calculate01);
+//     calculate02--;
+//     console.log(calculate02);
+//     ++calculate02;
+//     console.log(calculate02);
+//     calculate02++;
+//     console.log(calculate02);
+//     --calculate02
+//     console.log(calculate02);
+//     return calculate01 + calculate02;
+//     return calculate01 - calculate02;
+//     return calculate01 * calculate02;
+//     return calculate01 % calculate02;
+//     return calculate01 / calculate02;
+// }
 
-
+// function informationPerson(name,id,course,batch,campus){
+//     return `my name is ${name} my smit id ${id} i am enroll course ${course} my current learning batch ${batch} my smit campus ${campus}`;
+// }
+// informationPerson("Muhammed Hashim",776074,"web and app",20,"Ziatoon ashraf it park smit");
 
 
 
