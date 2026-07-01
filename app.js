@@ -345,6 +345,43 @@
 // }
 // informationPerson("Muhammed Hashim",776074,"web and app",20,"Ziatoon ashraf it park smit");
 
+// let resturantMenu=['dal chawal','Biryani','korma',"krahi"];
+// console.log(resturantMenu);
+// console.log(resturantMenu.length);
+// let resturantMenuUpdate01=resturantMenu.splice(2,0,'roti');
+// console.log(resturantMenuUpdate01);
+// console.log(resturantMenu);
+// console.log(resturantMenu.length);
+// let resturantMenuUpdate02=resturantMenu.slice(2,5);
+// console.log(resturantMenuUpdate02);
+// let resturantMenuUpdate03=resturantMenu.splice(5,0,'jalabi','golabjaman')
+// console.log(resturantMenu.length);
+// console.log(resturantMenu);
+
+// console.log(resturantMenuUpdate03);
+// let arr=[1,2,3,4,'ahmed','raza','kashif'];
+// console.log(arr);
+// let insertValue01InArr=arr.unshift('furquan');
+// console.log(insertValue01InArr);
+// console.log(arr);
+// let deleteValue01InArr=arr.shift();
+// console.log(deleteValue01InArr);
+// console.log(arr);
+// let insertValue02InArr=arr.push(3,null);
+// console.log(insertValue02InArr);
+// console.log(arr);
+// let deleteValue02InArr=arr.pop();
+// console.log(deleteValue02InArr);
+// // console.log(arr);
+// for (let i=0; i<; i++){
+//     console.log("hello World");
+    
+// }
+
+
+
+
+
 
 
 
