@@ -372,17 +372,54 @@
 // console.log(arr);
 // let deleteValue02InArr=arr.pop();
 // console.log(deleteValue02InArr);
-// // console.log(arr);
+// console.log(arr);
 // for (let i=0; i<; i++){
 //     console.log("hello World");
     
 // }
+// let name=prompt("enter your name");
+// console.log(name);
+// let writeEmail=prompt("enter your eamil addres or phone no")
+// console.log(writeEmail);
+// let userPassword=prompt("enter your password in number");
+// console.log(userPassword);
+// let saveUserInformation=[writeEmail,userPassword];
+// console.log(saveUserInformation);
+// saveUserInformation.unshift(name);
+// console.log(saveUserInformation);
+// let flag=false;
+// for (let i=0; i<saveUserInformation.length; i++){
+//     if (name.value==name.value || writeEmail.value ==writeEmail) {
+//         continue
+//     }
+//     if(saveUserInformation[i] <= 30209323029302223344){
+//         alert(`your password this ${saveUserInformation[2]}`);
+//         console.log(`your password this ${saveUserInformation[2]}`);
+//     } else if (name.value==name.value || writeEmail.value ==writeEmail) {
+//         continue name ;
+//         continue writeEmail;
+//         console.log(name);
+//         console.log(writeEmail);
+        
+        
+//     }else if (userPassword===userPassword) {
+//         console.log(userPassword);
+        
+//     }
+// }
+// if (flag ==true){
+//     console.log("Hello world !");
+// }
 
 
-
-
-
-
+let resturant=['biryani','korma','krahi'];
+let userdemand='korma';
+for (let i=0; i<resturant.length; i++){
+    if (userdemand ==resturant[i]){
+        console.log('yes you are demand is korma assesible');
+        break;
+    }
+}
 
 
 
